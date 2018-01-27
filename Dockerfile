@@ -3,6 +3,8 @@ MAINTAINER Dietrich Rordorf <dr@ediqo.com>
 
 USER root
 
+ENV SCAN_DIR_MAX_DEPTH=1
+
 # copy assets to image
 COPY ./assets /usr/local
 

@@ -74,7 +74,7 @@ import_sigs_hex_url=""
 # The maximum directory depth that the scanner will search, a value
 # of 10-15 is recommended.
 # [ changing this may have an impact on scan performance ]
-scan_max_depth="1"
+scan_max_depth=$SCAN_DIR_MAX_DEPTH
 
 # The minimum file size in bytes for a file to be included in LMD scans.
 # [ changing this may have an impact on scan performance ]
